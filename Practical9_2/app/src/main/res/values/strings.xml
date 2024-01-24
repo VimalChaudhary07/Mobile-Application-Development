@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Practical9_2</string>
+    <string name="divison">divison</string>
+    <string name="multiplication">multiplication</string>
+    <string name="Enter_1st_number">Enter_1st_Number</string>
+    <string name="Enter_Any_two_Numbers">Enter_Any_two_Numbers</string>
+    <string name="Enter_2nd_Number">Enter_2nd_Number</string>
+    <string name="addition">addition</string>
+    <string name="subtraction">subtraction</string>
+</resources>
