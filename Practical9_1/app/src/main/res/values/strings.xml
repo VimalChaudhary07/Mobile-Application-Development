@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Practical9_1</string>
+    <string name="off">off</string>
+    <string name="on">on</string>
+    <string name="bluetooth_on">bluetooth_on</string>
+    <string name="bluetooth">bluetooth</string>
+    <string name="bluetooth_off">bluetooth_off</string>
+    <string name="off1">off1</string>
+    <string name="on1">on1</string>
+</resources>
