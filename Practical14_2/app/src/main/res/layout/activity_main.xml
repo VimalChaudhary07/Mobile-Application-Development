@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="410dp"
+        android:layout_height="410dp"
+        android:id="@+id/iv1"
+        android:src="@drawable/ic_launcher_background">
+    </ImageView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:layout_marginLeft="60dp"
+        android:text="Change Image"
+        android:textSize="30dp">
+    </Button>
+</LinearLayout>
