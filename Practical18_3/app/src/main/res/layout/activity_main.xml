@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et1"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="50dp"
+        android:hint="Enter the Factorial Value">
+    </EditText>
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="20dp"
+        android:onClick="opensecond"
+        android:text="Submit">
+    </Button>
+</LinearLayout>
