@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/images"
+        android:scaleType="matrix" />
+
+    <Button
+        android:id="@+id/rotateClockwiseBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rotate Clockwise"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textSize="13dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="400dp" />
+
+    <Button
+        android:id="@+id/rotateAntiClockwiseBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rotate Anti-Clockwise"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:textSize="13dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="400dp"/>
+
+    <Button
+        android:id="@+id/zoomInBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zoom In"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/rotateClockwiseBtn"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/zoomOutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zoom Out"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/rotateAntiClockwiseBtn"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/fadeInBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fade In"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/zoomInBtn"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/fadeOutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fade Out"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/zoomOutBtn"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>
