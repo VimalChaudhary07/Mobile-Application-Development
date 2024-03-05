@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:conrtext=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:id="@+id/bluetooth"
+        android:text="Bluetooth"
+        android:textSize="30dp">
+    </TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1"
+        android:onClick="on"
+        android:text="Turn On">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b2"
+        android:onClick="visible"
+        android:text="Get Visible">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b3"
+        android:onClick="list"
+        android:text="List Devices">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b4"
+        android:onClick="off"
+        android:text="Turn Off">
+    </Button>
+    <ListView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/listView">
+    </ListView>
+</LinearLayout>
